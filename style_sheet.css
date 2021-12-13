@@ -1,0 +1,92 @@
+.main {
+  height: 8px;
+  padding-top: 10px;
+  margin-top: 10px;
+}
+#mynav {
+  padding-top: 4px;
+  margin-top: 10px;
+}
+.Language img {
+  height: 200px;
+  width: 200px;
+  margin: 15px;
+  padding: 15px;
+}
+.Language p {
+  font-size: 18px;
+  color: rgba(128, 128, 128, 0.527);
+  text-align: justify;
+  padding: 0px;
+  font-family: sans-serif;
+}
+.pic_data {
+  border: 1px solid black;
+  border-radius: 10px;
+}
+.heading_data {
+  background-color: rgba(0, 0, 139, 0.952);
+  color: white;
+  width: 112%;
+  text-align: center;
+  margin-bottom: 0px;
+  margin-left: -15px;
+  /* margin-right: 20px; */
+  border-top-right-radius: 25px;
+  padding: 20px;
+}
+
+.Language h2 {
+  font-weight: bold;
+  font-size: 25px;
+}
+.svg-yellow {
+  height: 200px;
+  width: 700px;
+  /* padding-top: -20px; */
+  margin-top: -100px;
+  position: relative;
+}
+.svg-red {
+  height: 200px;
+  width: 700px;
+  /* padding-top: -20px; */
+  margin-top: -100px;
+  position: relative;
+}
+
+.title_img {
+  background-color: rgba(135, 207, 235, 0.274);
+  height: 400px;
+  padding-left: 90px;
+}
+.title_img h2 {
+  text-align: center;
+  padding-top: 50px;
+  font-weight: bold;
+  padding-bottom: 4px;
+}
+.para {
+  text-align: center;
+  color: rgba(128, 128, 128, 0.527);
+}
+#login {
+  background-color: #ffffff;
+  color: #fc00bd;
+  border: solid 1px #fc00bd;
+  border-radius: 8px;
+  padding: 4px 10 4px 10px;
+}
+#register {
+  background-color: #fc00bd;
+  color: #fff;
+  border-radius: 8px;
+  padding: 4px 10 4px 10px;
+}
+@media (max-width: 900px) {
+  .Language img {
+    height: 100px;
+    width: 150px;
+    align-self: center;
+  }
+}
